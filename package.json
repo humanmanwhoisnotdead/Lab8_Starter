@@ -1,0 +1,30 @@
+{
+  "name": "lab8_starter",
+  "version": "1.0.0",
+  "description": "1) 2., because the point is to automatically test new code as you are working.\r 2) No, becuase were checking a specfic component of the code",
+  "main": "index.js",
+  "dependencies": {
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "jest-puppeteer": "^6.0.0",
+    "puppeteer": "^11.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humanmanwhoisnotdead/Lab8_Starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humanmanwhoisnotdead/Lab8_Starter/issues"
+  },
+  "homepage": "https://github.com/humanmanwhoisnotdead/Lab8_Starter#readme",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-puppeteer",
+    "verbose": true
+  }
+}
